@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Project">
+	<parameter name="userid" value="123" />
+	<test name="Smoke">
+		<groups>
+			<run>
+				<include name="priority1" />
+			</run>
+		</groups>
+		<packages>
+			<package name="package2" />
+		</packages>
+	</test>
+</suite>

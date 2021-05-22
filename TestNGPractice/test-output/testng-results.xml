@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60" started-at="2021-05-20T08:55:22Z" finished-at="2021-05-20T08:55:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60" started-at="2021-05-20T08:55:22Z" finished-at="2021-05-20T08:55:22Z">
+      <class name="package2.Annotations2">
+        <test-method status="PASS" signature="method1()[pri:0, instance:package2.Annotations2@573f2bb1]" name="method1" is-config="true" duration-ms="13" started-at="2021-05-20T14:25:22Z" finished-at="2021-05-20T14:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="methodx(java.lang.String, java.lang.String)[pri:0, instance:package2.Annotations2@573f2bb1]" name="methodx" duration-ms="10" started-at="2021-05-20T14:25:22Z" data-provider="getdata" finished-at="2021-05-20T14:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodx -->
+        <test-method status="PASS" signature="methodx(java.lang.String, java.lang.String)[pri:0, instance:package2.Annotations2@573f2bb1]" name="methodx" duration-ms="4" started-at="2021-05-20T14:25:22Z" data-provider="getdata" finished-at="2021-05-20T14:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yyy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodx -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:package2.Annotations2@573f2bb1]" name="method2" is-config="true" duration-ms="1" started-at="2021-05-20T14:25:22Z" finished-at="2021-05-20T14:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- package2.Annotations2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
